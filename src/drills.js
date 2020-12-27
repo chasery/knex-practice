@@ -49,4 +49,17 @@ function itemsAddedAfter(daysAgo) {
     });
 }
 
-itemsAddedAfter(10);
+// itemsAddedAfter(10);
+
+function totalCategoryCost() {
+  knexInstance
+    .select("category")
+    .sum("price AS total")
+    .from("shopping_list")
+    .groupBy("category")
+    .then((result) => {
+      console.log(result);
+    });
+}
+
+totalCategoryCost();
