@@ -32,4 +32,21 @@ function paginateShoppingList(pageNumber) {
     });
 }
 
-paginateShoppingList(2);
+// paginateShoppingList(2);
+
+function itemsAddedAfter(daysAgo) {
+  knexInstance
+    .select()
+    .from("shopping_list")
+    .where(
+      "date_added",
+      ">",
+      knexInstance.raw(`now() - '?? days'::INTERVAL`, daysAgo)
+    )
+    //.orderBy({ column: "date_added", order: "DESC" })
+    .then((result) => {
+      console.log(result);
+    });
+}
+
+itemsAddedAfter(10);
