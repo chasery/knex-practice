@@ -1,0 +1,22 @@
+INSERT INTO blogful_articles (title, date_published, content)
+VALUES
+  ('I hear dead people …', now() - '21 days'::INTERVAL, '“If I were buying my coffin, I would get one with thicker walls so you couldn’t hear the other dead people.” – Dwight Schrute, Season 2, “Office Olympics”'),
+  ('Fake it till you make it', now() - '19 days'::INTERVAL, '“And I knew exactly what to do. But in a much more real sense, I had no idea what to do.” – Michael Scott, Season 5, “Stress Relief”'),
+  ('It’s the little things in life', now() - '19 days'::INTERVAL, '“There’s a lot of beauty in ordinary things. Isn’t that kind of the point?” – Pam Beesly, Season 9, “Finale”'),
+  ('Why was Dwight Schrute so obsessed with beets?', now() - '18 days'::INTERVAL, 'Yep, beets are sexy. Cooked beets act as an aphrodisiac when eaten due to the high levels of manganese and boron it delivers to your body. These added substances produce sex hormones, therefore getting you in the mood. This may explain why Dwight used such suggestive lines on Angela.'),
+  ('Bears, Beets, Battlestar Galactica', now() - '17 days'::INTERVAL, '“Identity theft is not a joke, Jim! Millions of families suffer every year.” – Dwight Schrute, Season 3, “Product Recall”'),
+  ('Grilling your feet with the best of them', now() - '17 days'::INTERVAL, 'Michael Scott (Steve Carell) accidentally burns his foot while grilling bacon on his George Foreman Grill, which he keeps next to his bed. After he makes a distress call to the office, Dwight Schrute (Rainn Wilson) comes to "rescue" him, but crashes his car into a pole.'),
+  ('How to determine if your co-worker is a vampire', now() - '17 days'::INTERVAL, 'So far I''m observing, long finger nails, pale complexion, long man pony, wears sweater over the shoulders (very similar to a cape), and has been quoted saying "it''s too sunny to go out for lunch today".'),
+  ('Today I found a joint in the parking lot', now() - '14 days'::INTERVAL, 'Dwight plays the role of Volunteer Sheriff after finding half a joint in the Dunder Mifflin parking lot leading to an investigation. Pam gives Jim a play challenge which he tries to complete.'),
+  ('Getting rabies is a serious thing', now() - '13 days'::INTERVAL, 'Michael Scott''s Dunder Mifflin Scranton Meredith Palmer Memorial Celebrity Rabies Awareness Pro-Am Fun Run Race For The Cure'),
+  ('The reality of being a writer', now() - '9 days'::INTERVAL, '“Sometimes I’ll start a sentence and I don’t even know where it’s going. I just hope I find it along the way.” – Michael Scott, Season 5, “The Duel”'),
+  ('A tricky artform', now() - '8 days'::INTERVAL, '“I talk a lot, so I’ve learned to tune myself out.” – Kelly Kapoor, Season 7, “Counseling”'),
+  ('Would you rather be feared or loved?', now() - '8 days'::INTERVAL, '“Would I rather be feared or loved? Easy. Both. I want people to be afraid of how much they love me.” – Michael Scott, Season 2, “The Fight”'),
+  ('This is how words work, right?', now() - '6 days'::INTERVAL, '“I’m not superstitious, but I am a little stitious.” – Michael Scott, Season 4, “Fun Run”'),
+  ('An honest mood', now() - '6 days'::INTERVAL, '“If I don’t have some cake soon, I might die.” – Stanley Hudson, Season 4, “Survivor Man”'),
+  ('If you didn’t already know, prison isn’t a fun place', now() - '3 days'::INTERVAL, '“The worst thing about prison was the dementors.” – Michael “Prison Mike” Scott, Season 3, “The Convict”'),
+  ('Where is the line drawn on quality of life?', now() - '1 days'::INTERVAL, '“No, Rose, they are not breathing. And they have no arms or legs … Where are they? You know what? If we come across somebody with no arms or legs, do we bother resuscitating them? I mean, what quality of life do we have there?” – Michael Scott, Season 5, “Stress Relief”'),
+  ('Would Smokey Bear be proud?', now() - '1 days'::INTERVAL, '“Today, smoking is going to save lives.” – Dwight Schrute, Season 5, “Stress Relief”'),
+  ('The procrastinator’s motto', now(), '“I am running away from my responsibilities. And it feels good.” – Michael Scott, Season 4, “Money”'),
+  ('Isn’t this everyone’s dream?', now(), '“I just want to lie on the beach and eat hot dogs. That’s all I’ve ever wanted.” – Kevin Malone, Season 3, “Beach Games”'),
+  ('They say shopping for women’s clothes is hard', now(), '“Sometimes the clothes at Gap Kids are too flashy, so I’m forced to go to the American Girl store and order clothes for large colonial dolls.” – Angela Martin, Season 3, “Women’s Appreciation”');
